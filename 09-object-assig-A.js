@@ -17,7 +17,7 @@ professor.certificates= ["Hacker Rank Participation","Certificate in IFE course"
 console.log(professor.certificates);
 
 console.log("===============Add new property ============");
-professor.totalExperience = "14 years";
+professor.totalExperience ="14 years";
 console.log(professor);
 console.log(professor.totalExperience);
 
@@ -36,5 +36,4 @@ console.log("=============== Log last element of the array ============");
  console.log("=============== Traverse the array using For loop S============");
  for (const element of professor.certificates) {
     console.log(element);
-    
- }
+}
